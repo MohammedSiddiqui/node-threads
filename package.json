@@ -1,0 +1,23 @@
+{
+  "name": "single-thread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "threads.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node threads.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedSiddiqui/node-threads.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedSiddiqui/node-threads/issues"
+  },
+  "homepage": "https://github.com/MohammedSiddiqui/node-threads#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

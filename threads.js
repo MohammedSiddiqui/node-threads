@@ -6,6 +6,7 @@ const crypto = require('crypto');
 const iterations = 1;
 
 function expensiveOperation(instance, startTime) {
+    // PBKDF2 is a hash generating function
     crypto.pbkdf2('password', 'someSalt', 100000, 512, 'sha512', () => {
         console.log(`${instance}: `, Date.now() - startTime);
     });
